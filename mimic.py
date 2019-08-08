@@ -62,7 +62,7 @@ def mimic_dict(filename):
             mimic[prev].append(word)
         prev = word
     return mimic
-    raise NotImplementedError("Get to Work!")
+    # raise NotImplementedError("Get to Work!")
 
 
 def print_mimic(mimic_dict, word):
@@ -72,10 +72,8 @@ def print_mimic(mimic_dict, word):
         if not nexts:
             nexts = mimic_dict['']
         word = random.choice(nexts)
-
-    random_words = filename.split()
-
-    raise NotImplementedError("Get to Work!")
+    
+    # raise NotImplementedError("Get to Work!")
 
 
 # Provided main(), calls mimic_dict() and mimic()
